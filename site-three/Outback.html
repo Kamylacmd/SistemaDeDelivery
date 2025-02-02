@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styleone.css">
+    <title>Outback</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <img src="/imgs/outback.jpg" alt="" width="80px">
+            <h2>Outback</h2>
+        </div>
+    </header>
+
+    <div class="second-box">
+
+        <div class="cardapio">
+            <article class="cardapio-container-one">
+                    <img src="/site-three/imgs/Tilapia-Filet-.jpg" alt="" width="80px">
+                <div class="cardapio-name">
+                    <h5 class="prato-name">Tilapia Filet</h5>
+                    <h5 class="prato-preco" data-price="65.00">R$65,00</h5>
+                    <h6>Tilapia Filet</h6>
+                    <button class="add-to-cart" onclick="AdicionarNoCarrinho()">Adicionar ao carrinho</button>
+                </div>
+            </article>
+    
+            <article class="cardapio-container-two">
+                    <img src="/site-three/imgs/Caesar-Salad.jpg" alt="" width="80px">
+                <div class="cardapio-name">
+                    <h5 class="prato-name">Caesar Salad</h5>
+                    <h5 class="prato-preco" data-price="42.00">R$42,00</h5>
+                    <h6>Caesar Salad</h6>
+                    <button class="add-to-cart" onclick="AdicionarNoCarrinho()">Adicionar ao carrinho</button>
+                </div>
+            </article>
+    
+            <article class="cardapio-container-three">
+                <img src="/site-three/imgs/Smores.png" alt="" width="80px">
+                <div class="cardapio-name">
+                    <h5 class="prato-name">Smoress</h5>
+                    <h5 class="prato-preco" data-price="25.00">R$25,00</h5>
+                    <h6>Smoress</h6>
+                    <button class="add-to-cart" onclick="AdicionarNoCarrinho()">Adicionar ao carrinho</button>
+                </div>
+            </article>
+    
+        </div>
+    
+        <div class="carrinho">
+            <div class="carrinho-container">
+                <div class="preco-total">
+                    <h4>TOTAL:</h4>
+                    <h3>R$<span id="cart-total">00</span></h3>
+                </div>
+                <div class="cupom-desconto">
+                    <label for="cupom">INSIRA O CUPOM</label>
+                    <input type="text" id="cupom" placeholder="Digite seu cupom">
+                    <button id="aplicar-cupom" onclick="AplicarCupomDesconto()">APLICAR</button>
+                </div>
+                <button>CONFIRMAR</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>

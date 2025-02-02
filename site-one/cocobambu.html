@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styleone.css">
+    <title>Coco Bambu</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <img src="/imgs/coco-bambu.jpeg" alt="" width="80px">
+            <h2>Coco Bambu</h2>
+        </div>
+    </header>
+
+    <div class="second-box">
+
+        <div class="cardapio">
+            <article class="cardapio-container-one">
+                    <img src="/site-one/imgs/macarrao.webp" alt="" width="80px">
+                <div class="cardapio-name">
+                    <h5 class="prato-name">Espaguete Coco Bambu</h5>
+                    <h5 class="prato-preco" data-price="100.00">R$100,00</h5>
+                    <h6>Espaguete</h6>
+                    <button class="add-to-cart" onclick="AdicionarNoCarrinho()">Adicionar ao carrinho</button>
+                </div>
+            </article>
+    
+            <article class="cardapio-container-two">
+                    <img src="/site-one/imgs//queijocarne.webp" alt="" width="80px">
+                <div class="cardapio-name">
+                    <h5 class="prato-name">Picanha Coco Bambu</h5>
+                    <h5 class="prato-preco" data-price="120.00">R$120,00</h5>
+                    <h6>Picanha</h6>
+                    <button class="add-to-cart" onclick="AdicionarNoCarrinho()">Adicionar ao carrinho</button>
+                </div>
+            </article>
+    
+            <article class="cardapio-container-three">
+                <img src="/site-one/imgs/camarão.webp" alt="" width="80px">
+                <div class="cardapio-name">
+                    <h5 class="prato-name">Camarão Siciliano</h5>
+                    <h5 class="prato-preco" data-price="110.00">R$110,00</h5>
+                    <h6>Camarão siciliano</h6>
+                    <button class="add-to-cart" onclick="AdicionarNoCarrinho()">Adicionar ao carrinho</button>
+                </div>
+            </article>
+    
+        </div>
+    
+        <div class="carrinho">
+            <div class="carrinho-container">
+                <div class="preco-total">
+                    <h4>TOTAL:</h4>
+                    <h3>R$<span id="cart-total">00</span></h3>
+                </div>
+                <div class="cupom-desconto">
+                    <label for="cupom">INSIRA O CUPOM</label>
+                    <input type="text" id="cupom" placeholder="Digite seu cupom">
+                    <button id="aplicar-cupom" onclick="AplicarCupomDesconto()">APLICAR</button>
+                </div>
+                <button>CONFIRMAR</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>

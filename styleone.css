@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+    height: 100px;
+
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 25px;
+}
+
+.header-container img{
+    border-radius: 50%;
+}
+
+.header-container h2{
+    font-size: 28px;
+    color: rgb(228, 227, 227);
+}
+
+.second-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cardapio{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.cardapio-container-one{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 8px;
+    background-color: rgba(212, 212, 212, 0.35);
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.cardapio-container-one img{
+    border-radius: 25px;
+}
+
+.cardapio-container-two{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 8px;
+    background-color: rgb(212, 212, 212, 0.35);
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.cardapio-container-two img{
+    border-radius: 25px;
+}
+
+.cardapio-container-three{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 8px;
+    background-color:rgb(212, 212, 212, 0.35);
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.cardapio-container-three img{
+    border-radius: 25px;
+}
+
+.cardapio-name{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardapio-name .prato-name{
+    font-size: 14.3px;
+    font-weight: 700;
+}
+
+.cardapio-name .prato-preco{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(38, 109, 11);
+}
+
+.cardapio-name h6{
+    font-size: 11.4px;
+    font-weight: 500;
+    color: rgb(82, 82, 82);
+}
+
+.cardapio-name button{
+    margin-top: 4px;
+    background-color: rgb(233, 29, 46);
+    padding: 6px 9px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194, 194, 194);
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.carrinho-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 30px;
+}
+
+.carrinho-container .preco-total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carrinho-container .preco-total h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.carrinho-container .preco-total h3{
+    font-size: 34px;
+    font-weight: 700;
+    color: rgb(38, 109, 11);
+}
+
+.carrinho-container label{
+    font-size: 13.5px;
+    font-weight: 600;
+}
+
+.carrinho-container button{
+    margin-top: 4px;
+    background-color: rgb(233, 29, 46);
+    padding: 8px 12px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.carrinho-container .cupom-desconto{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrinho-container .cupom-desconto button{
+    margin-top: 4px;
+    background-color: rgb(231, 118, 12);
+    padding: 8px 10px;
+    font-size: 10px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    
+}
+
+.site-header{
+    background-color: rgb(241, 218, 187);
+    padding: 40px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+.header-container ul li{
+    display: inline-block;
+    margin: 0 20px
+}
+
+.header-container ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.restaurants-examples{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h3{
+    margin: 40px 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.title h3 span{
+    color: rgb(167, 113, 77);
+}
+
+.restaurant-imgs-one{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    background-color: rgb(221, 221, 221);
+    padding: 30px 40px;
+    margin: 8px;
+    border-radius: 20px;
+}
+.restaurant-imgs-two{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    background-color: rgb(221, 221, 221);
+    padding: 30px 40px;
+    margin: 8px;
+    border-radius: 20px;
+}
+.restaurant-imgs-three{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    background-color: rgb(221, 221, 221);
+    padding: 30px 40px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+.restaurant-imgs-one img{
+    border-radius: 50%;
+}
+.restaurant-imgs-two img{
+    border-radius: 50%;
+}
+.restaurant-imgs-three img{
+    border-radius: 50%;
+}
+
+.restaurant-name{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin: 6px;
+}
+
+.restaurant-name a{
+    background-color: rgb(124, 75, 43);
+    padding: 6.5px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+
+
